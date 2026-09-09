@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="1200" height="250" role="img" aria-labelledby="t">
+  <title id="t">AI assistants call FlowMattic as an MCP server. FlowMattic calls any MCP server as a client.</title>
+  <defs>
+    <clipPath id="frame"><rect width="1200" height="250" rx="24"/></clipPath>
+    <radialGradient id="glowBlue" cx="0.1" cy="0.5" r="0.5"><stop offset="0" stop-color="#3B82F6" stop-opacity=".35"/><stop offset="1" stop-color="#3B82F6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowViolet" cx="0.9" cy="0.5" r="0.5"><stop offset="0" stop-color="#8B5CF6" stop-opacity=".35"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+    <linearGradient id="gt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+    <clipPath id="H"><path d="M 198.3 198.3 A 74 74 0 0 1 93.7 93.7 Z"/></clipPath>
+    <mask id="MS" maskUnits="userSpaceOnUse" x="0" y="0" width="256" height="256">
+      <rect width="256" height="256" fill="#000"/>
+      <g fill="none" stroke="#fff" stroke-width="24"><rect x="68" y="68" width="84" height="84" rx="24"/></g>
+      <g fill="none" stroke="#000" stroke-width="38"><circle cx="146" cy="146" r="42"/></g>
+      <g clip-path="url(#H)"><g fill="none" stroke="#fff" stroke-width="24"><rect x="68" y="68" width="84" height="84" rx="24"/></g></g>
+    </mask>
+    <mask id="MC" maskUnits="userSpaceOnUse" x="0" y="0" width="256" height="256">
+      <rect width="256" height="256" fill="#000"/>
+      <g fill="none" stroke="#fff" stroke-width="24"><circle cx="146" cy="146" r="42"/></g>
+      <g clip-path="url(#H)"><g fill="none" stroke="#000" stroke-width="38"><rect x="68" y="68" width="84" height="84" rx="24"/></g></g>
+    </mask>
+    <style>
+      .t{font-family:Inter,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-weight:700;font-size:16px;fill:#F5F7FC}
+      .d{font-family:Inter,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-weight:500;font-size:13px;fill:#AAB4D9}
+      .p{font-family:Inter,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-weight:600;font-size:12.5px;fill:#DDE3F5;text-anchor:middle}
+      .role{font-family:Inter,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-weight:700;font-size:13px;fill:#F5F7FC;text-anchor:middle}
+      .what{font-family:Inter,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-weight:500;font-size:12px;fill:#96A3D6;text-anchor:middle}
+      .wire{fill:none;stroke:#96A3D6;stroke-opacity:.55;stroke-width:1.8;stroke-dasharray:2 5;stroke-linecap:round}
+      .head{fill:none;stroke:#C7CEEA;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="250" fill="#0A0B12"/>
+    <rect width="1200" height="250" fill="url(#glowBlue)"/>
+    <rect width="1200" height="250" fill="url(#glowViolet)"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="249" rx="24" fill="none" stroke="#fff" stroke-opacity=".09"/>
+
+  <!-- left: AI assistants -->
+  <g transform="translate(48 40)">
+    <rect width="300" height="170" rx="18" fill="#12141F" fill-opacity=".94" stroke="#fff" stroke-opacity=".09"/>
+    <text class="t" x="22" y="34">AI assistants</text>
+    <text class="d" x="22" y="56">Connect once, then ask in plain language.</text>
+    <g transform="translate(22 78)">
+      <rect width="72" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text class="p" x="36" y="19">Claude</text>
+      <rect x="82" width="82" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text class="p" x="123" y="19">ChatGPT</text>
+      <rect x="174" width="72" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text class="p" x="210" y="19">Cursor</text>
+      <rect y="40" width="82" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text class="p" x="41" y="59">VS Code</text>
+      <rect x="92" y="40" width="130" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text class="p" x="157" y="59">Any MCP client</text>
+    </g>
+  </g>
+
+  <!-- center: FlowMattic -->
+  <g transform="translate(520 55)">
+    <rect x="-10" y="-10" width="180" height="160" rx="30" fill="#6D7CF6" fill-opacity=".35" filter="url(#soft)"/>
+    <rect width="160" height="140" rx="22" fill="#12141F" stroke="url(#gt)" stroke-opacity=".8"/>
+    <g transform="translate(52 22) scale(0.22)">
+      <rect width="256" height="256" fill="#FFFFFF" mask="url(#MC)"/>
+      <rect width="256" height="256" fill="#FFFFFF" mask="url(#MS)"/>
+    </g>
+    <text class="role" x="80" y="104">FlowMattic</text>
+    <text class="what" x="80" y="124">MCP server and client</text>
+  </g>
+
+  <!-- right: any MCP server -->
+  <g transform="translate(852 40)">
+    <rect width="300" height="170" rx="18" fill="#12141F" fill-opacity=".94" stroke="#fff" stroke-opacity=".09"/>
+    <text class="t" x="22" y="34">Any MCP server</text>
+    <text class="d" x="22" y="56">Remote or local, first-party or yours.</text>
+    <g transform="translate(22 78)">
+      <rect width="62" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text class="p" x="31" y="19">Tools</text>
+      <rect x="72" width="94" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text class="p" x="119" y="19">Resources</text>
+      <rect x="176" width="80" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text class="p" x="216" y="19">Prompts</text>
+      <rect y="40" width="140" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text class="p" x="70" y="59">Streamable HTTP</text>
+      <rect x="150" y="40" width="58" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text class="p" x="179" y="59">SSE</text>
+    </g>
+  </g>
+
+  <!-- left arrow: assistants call FlowMattic -->
+  <path class="wire" d="M356 125H508"/>
+  <path class="head" d="M501 119l7 6-7 6"/>
+  <text class="role" x="432" y="105">MCP server</text>
+  <text class="what" x="432" y="152">they run your workflows,</text>
+  <text class="what" x="432" y="168">tables and PHP functions</text>
+
+  <!-- right arrow: FlowMattic calls any server -->
+  <path class="wire" d="M692 125H844"/>
+  <path class="head" d="M837 119l7 6-7 6"/>
+  <text class="role" x="768" y="105">MCP client</text>
+  <text class="what" x="768" y="152">your workflows and agents</text>
+  <text class="what" x="768" y="168">call their tools</text>
+</svg>
