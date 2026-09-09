@@ -16,9 +16,7 @@
   <a href="https://flowmattic.com/integrations/"><img alt="860+ integrations" src="https://img.shields.io/badge/integrations-860%2B-3B82F6?style=flat-square&labelColor=0A0B12"></a>
   <a href="https://flowmattic.com"><img alt="12,000+ active sites" src="https://img.shields.io/badge/active%20sites-12%2C000%2B-8B5CF6?style=flat-square&labelColor=0A0B12"></a>
   <a href="https://flowmattic.com/workflows/"><img alt="4,600+ workflow templates" src="https://img.shields.io/badge/templates-4%2C600%2B-7C3AED?style=flat-square&labelColor=0A0B12"></a>
-  <a href="https://flowmattic.com/pricing/"><img alt="Unlimited task runs" src="https://img.shields.io/badge/task%20runs-unlimited-22C55E?style=flat-square&labelColor=0A0B12"></a>
-  <img alt="WordPress 6.0 or newer" src="https://img.shields.io/badge/WordPress-6.0%2B-21759B?style=flat-square&labelColor=0A0B12&logo=wordpress&logoColor=white">
-  <img alt="PHP 8.0 or newer" src="https://img.shields.io/badge/PHP-8.0%2B-777BB4?style=flat-square&labelColor=0A0B12&logo=php&logoColor=white">
+  <img alt="Requires WordPress 6.0 or newer and PHP 8.0 or newer" src="https://img.shields.io/badge/WordPress%206.0%2B-PHP%208.0%2B-21759B?style=flat-square&labelColor=0A0B12&logo=wordpress&logoColor=white">
 </p>
 
 <p align="center">
